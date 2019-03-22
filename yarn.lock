@@ -116,6 +116,31 @@
   dependencies:
     find-up "^2.1.0"
 
+"@dhis2/cli-app@link:./modules/app":
+  version "0.0.0"
+  uid ""
+
+"@dhis2/cli-cluster@link:./modules/cluster":
+  version "0.0.0"
+  uid ""
+
+"@dhis2/cli-create@link:./modules/create":
+  version "0.0.0"
+  uid ""
+
+"@dhis2/cli-helpers-engine@0.12.0", "@dhis2/cli-helpers-engine@^0.12.0":
+  version "0.12.0"
+  resolved "https://registry.yarnpkg.com/@dhis2/cli-helpers-engine/-/cli-helpers-engine-0.12.0.tgz#a12e7640f5805bd3379ac50b090b16a80c87a069"
+  integrity sha512-w5iKyIyeVa/H4sLAHPFlz50X3hpmweP9KypUoV+bMbcnIPQWnNk7RCUoYznM7J0Xa/Le93GM4Y46gdcOeeyM8g==
+  dependencies:
+    chalk "^2.4.2"
+    mkdirp "^0.5.1"
+    request "^2.88.0"
+    rimraf "^2.6.3"
+    tar "^4.4.8"
+    update-notifier "^2.5.0"
+    yargs "^13.1.0"
+
 "@dhis2/cli-helpers-engine@^0.10.1":
   version "0.10.1"
   resolved "https://registry.yarnpkg.com/@dhis2/cli-helpers-engine/-/cli-helpers-engine-0.10.1.tgz#bd3f589d862e629fe74f8717efeae448fe55038c"
@@ -169,6 +194,10 @@
     "@dhis2/cli-packages" "^2.0.2"
     prettier "^1.15.3"
     yargs "^13.1.0"
+
+"@dhis2/cli-utils@link:./modules/utils":
+  version "0.0.0"
+  uid ""
 
 "@marionebl/sander@^0.6.0":
   version "0.6.1"
